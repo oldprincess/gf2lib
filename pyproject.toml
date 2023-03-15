@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+
+[project]
+name = "gf2lib"
+version = "0.0.1"
+authors = [
+  { name="oldprincess", email="zirui.gong@foxmail.com" },
+]
+description = "gf2lib is a library for manipulating GF (2) polynomials and GF (2) matrices over finite fields"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/oldprincess/gf2lib"
+"Bug Tracker" = "https://github.com/oldprincess/gf2lib/issues"
